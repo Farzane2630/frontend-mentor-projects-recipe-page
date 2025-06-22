@@ -20,20 +20,23 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Overview
 
-### The challenge
+## The challenge
 
-Users should be able to:
+The challenge is to build out this recipe page and get it looking as close to the design as possible.
 
-- See hover and focus states for all interactive elements on the page
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+
+Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+
 
 ### Screenshot
 
-![Image](https://github.com/user-attachments/assets/fa508ae6-c605-4507-8eb7-17adddeffe62)
+
 
 ### Links
 
-- [Solution URL:](https://www.frontendmentor.io/solutions/frontend-mentor-projects-social-links-WxRR6w7WRl)
-- [Live Site URL: ](https://social-links-profile-hazel-sigma.vercel.app/)
+- [Solution URL]()
+- [Live Site URL ]()
 
 ## My process
 
