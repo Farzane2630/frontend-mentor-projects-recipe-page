@@ -20,39 +20,38 @@
 }
 
 /* reset styles */
+
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
   box-sizing: border-box;
   font-size: 1em;
   font-family: "Outfit";
   font-weight: 400;
-  background-color: var(--Stone-100);
-  height: 100vh;
-  padding-top: 2em;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  overflow-y: scroll;
+  line-height: 1.5em;
+  background-color: white;
 }
-
 .recipe-card {
   background-color: white;
-  width: 30em;
-  padding: 1.5em;
-  border-radius: 1em;
+  width: 100%;
+  padding: 0 0 1em 0;
+  border-radius: 0;
 }
 
 .recipe-image {
-  width: 28em;
-  height: 28em;
-  border-radius: 1.5em;
+  width: 100%;
+  border-radius: 0;
+}
+
+.body {
+  padding: 0 1em;
 }
 
 h1 {
-    font-family: "Young Serif";
-    font-size: 2em;
-    /* font-weight: 800; */
+  font-family: "Young Serif";
+  font-size: 2em;
+  color: var(--Stone-900);
 }
 
 .quick-info-card {
@@ -65,29 +64,100 @@ h1 {
   color: var(--Rose-800);
   font-weight: 600;
   font-size: 1.2em;
-  /* padding-inline-start: 0.5em; */
 }
 
-.quick-info-card li{
-    line-height: 2em;
+.quick-info-card li {
+  line-height: 2em;
 }
 .quick-info-card li span:nth-child(1) {
-font-weight: 600;
-/* padding-inline-start: 1em; */
+  font-weight: 600;
+  color: var(--Stone-900);
 }
 
 .title {
   font-family: "Young Serif";
-  font-size: 1.5em;
+  font-size: 2em;
   color: var(--Brown-800);
-  font-weight: 600;
+  font-weight: 400;
+}
+
+.hr {
+  border: 0.1em var(--Stone-150) solid;
+  margin-bottom: 2em;
+}
+
+.ingredients li {
+  color: var(--Stone-600);
+  line-height: 2em;
 }
 
 .instructions li {
-    padding-inline-start: 1em;
-
+  padding-inline-start: 1em;
+  padding-bottom: 0.8em;
 }
 
-.instructions li :nth-child(1){
-    font-weight: 600;
+.instructions li :nth-child(1) {
+  font-weight: 600;
+  color: var(--Stone-900);
+}
+
+.instructions li :nth-child(2) {
+  color: var(--Stone-600);
+}
+
+.nutrition table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+tr :nth-child(1) {
+  color: var(--Stone-600);
+    padding:0.2em 0 0.5em 1.5em;
+}
+
+tr :nth-child(2) {
+  color: var(--Brown-800);
+  padding:0 0 0.5em 1em;
+}
+
+tr {
+  border-bottom: 1px var(--Stone-150) solid;
+}
+
+table :last-child {
+  border: none;
+}
+
+/* media query */
+@media (min-width: 375px) {
+  body {
+    height: 100vh;
+    margin: 0;
+    padding: 2em;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: "Outfit";
+    font-weight: 400;
+    line-height: 1.5em;
+    color: var(--Stone-600);
+    background-color: var(--Stone-100);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-y: scroll;
+  }
+
+  .recipe-card {
+    background-color: white;
+    width: 30em;
+    padding: 1.5em;
+    border-radius: 1em;
+  }
+
+  .recipe-image {
+    width: 100%;
+    border-radius: 1.5em;
+    margin-bottom: 1.2em;
+  }
 }
