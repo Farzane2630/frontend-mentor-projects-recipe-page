@@ -144,19 +144,20 @@ table :last-child {
     background-color: var(--Stone-100);
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items:flex-start;
     overflow-y: scroll;
   }
 
   .recipe-card {
     background-color: white;
-    width: 30em;
+    width: 36em;
     padding: 1.5em;
     border-radius: 1em;
   }
 
   .recipe-image {
     width: 100%;
+    height: 20em;
     border-radius: 1.5em;
     margin-bottom: 1.2em;
   }
