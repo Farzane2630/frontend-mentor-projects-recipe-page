@@ -132,9 +132,9 @@ table :last-child {
 /* media query */
 @media (min-width: 375px) {
   body {
-    height: 100vh;
+    height: 100%;
     margin: 0;
-    padding: 2em;
+    padding: 8em;
     box-sizing: border-box;
     color: var(--Stone-600);
     background-color: var(--Stone-100);
@@ -145,7 +145,7 @@ table :last-child {
   }
 
   .recipe-card {
-    width: 36em;
+    width: 40em;
     padding: 1.5em;
     border-radius: 1em;
   }
