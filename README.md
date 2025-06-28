@@ -31,7 +31,7 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 
 ### Screenshot
 
-
+![Screenshot](https://github.com/user-attachments/assets/d78df9a8-fcc3-4537-84bc-acffbf5492b3)
 
 ### Links
 
